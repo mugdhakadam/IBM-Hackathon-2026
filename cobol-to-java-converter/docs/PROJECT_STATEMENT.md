@@ -8,7 +8,7 @@ After winning the IBM Master the Mainframe (USA & Canada) contest in 2014 and be
 I transitioned  my career from Mainframe developer to Technical Program Manager. But as technology advanced, my coding skills in cobol(Mainframe technologies) became obsolete for my job. I needed to skill up in java, which was challenging. 
 So, this project is dedicated to all the Cobol(Mainframe) developers who want to upgrade to latest technologies and be relevant in the current market.
 
-I would like to Introduce my Project "COBOL to Java Converter" to the IBM Hackathon 2026 for addressing Legacy COBOL Modernization Crisis With the help of IBM-Bob asmy AI powered development partner. 
+I would like to Introduce my Project "COBOL to Java Converter" to the IBM Hackathon 2026 for addressing Legacy COBOL Modernization Crisis With the help of IBM-Bob as my AI powered development partner. 
 
 
 ## Problem Statement
