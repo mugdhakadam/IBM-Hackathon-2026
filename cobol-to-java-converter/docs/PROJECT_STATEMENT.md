@@ -4,7 +4,7 @@
 Hi IBM Hackathon 2026 Judges,
 My name is mugdha Kadam, I a Technical Program Manager.
 
-After winning the IBM Master the Mainframe (USA & Canada) contest in 2014 and being a finalist in the IBM Master the Mainframe World Championship 2015, I have been working as a Mainframe developer for the 5+ years.
+After winning the IBM Master the Mainframe (USA & Canada) contest in 2014 and being a finalist in the IBM Master the Mainframe World Championship 2015, I have been working as a Mainframe developer for 5+ years.
 I transitioned  my career from Mainframe developer to Technical Program Manager. But as technology advanced, my coding skills in cobol(Mainframe technologies) became obsolete for my job. I needed to skill up in java, which was challenging. 
 So, this project is dedicated to all the Cobol(Mainframe) developers who want to upgrade to latest technologies and be relevant in the current market.
 
