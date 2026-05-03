@@ -305,12 +305,25 @@ public class JavaCodeGenerator {
     
     private String convertToJavaFieldName(String cobolName) {
         // Convert WS-NAME to wsName
+        // Handle empty or whitespace-only strings
+        if (cobolName == null || cobolName.trim().isEmpty()) {
+            return cobolName;
+        }
+        
         String[] parts = cobolName.split("-");
         StringBuilder sb = new StringBuilder();
-        sb.append(parts[0].toLowerCase());
+        
+        // Handle first part
+        if (parts.length > 0 && !parts[0].isEmpty()) {
+            sb.append(parts[0].toLowerCase());
+        }
+        
+        // Handle remaining parts
         for (int i = 1; i < parts.length; i++) {
-            sb.append(parts[i].substring(0, 1).toUpperCase());
-            sb.append(parts[i].substring(1).toLowerCase());
+            if (!parts[i].isEmpty()) {
+                sb.append(parts[i].substring(0, 1).toUpperCase());
+                sb.append(parts[i].substring(1).toLowerCase());
+            }
         }
         return sb.toString();
     }
